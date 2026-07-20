@@ -1,0 +1,2 @@
+intent_id,query_cluster,keywords,negative_keywords,audience_hypothesis,awareness_stage,offer_id,message_id,evidence_source,status
+intent-example,what this cluster of searches means,"keyword one; keyword two; keyword three","free; jobs; diy",aud-example,problem,offer-example,msg-example,GSC + manual research,hypothesis

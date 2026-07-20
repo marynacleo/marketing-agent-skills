@@ -1,0 +1,15 @@
+# message-map.yaml — the PROMISE shown to a given intent. One entry per message.
+# This is the bridge between a search intent and the landing page. The message
+# is what the ad and the landing headline must both honor (semantic match,
+# not word-for-word copy).
+
+- message_id: msg-example
+  for_intent: intent-example        # from keyword-intents.csv
+  for_offer: offer-example          # from offers.yaml
+  awareness_stage: problem          # problem | solution | product | most-aware
+  promise: The single clear promise this person gets. No final period rule applies.
+  proof_required:                   # what must be on the page to make the promise credible
+    - proof-example
+  primary_objection: The main reason they would not act.
+  cta: The next concrete step (verb, no fluff).
+  evidence: hypothesis

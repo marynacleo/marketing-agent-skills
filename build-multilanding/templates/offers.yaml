@@ -1,0 +1,16 @@
+# offers.yaml — WHAT is being sold/proposed. One entry per offer.
+# The offer is the promise + terms, independent of which page renders it.
+
+- offer_id: offer-example
+  name: Short offer name
+  what: Concrete deliverable or service, mechanism not vague benefit.
+  price_model: fixed | from | quote | free   # how price is communicated
+  price_value: ""                            # number or range, empty if quote-only
+  terms: Dates, inclusions, exclusions, eligibility.
+  primary_conversion: form | call | deposit | booking | purchase
+  conversion_value: ""                       # expected value of one conversion, if known
+  proof_refs:                                # ids from proof-library.yaml
+    - proof-example
+  restrictions_refs:                         # ids from claims-and-restrictions.md
+    - claim-example
+  evidence: hypothesis

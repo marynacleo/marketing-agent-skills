@@ -1,0 +1,2 @@
+experiment_id,variant_id,intent_id,hypothesis,expected_mechanism,primary_metric,downstream_metric,guardrail_metric,launch_date,version,result,decision
+exp-example,var-example,intent-example,If we match the ad promise on the H1 then qualified leads rise,message match lifts relevance and trust,qualified_lead_rate,booked_revenue,cost_per_qualified_lead,2026-01-01,v1,,pending

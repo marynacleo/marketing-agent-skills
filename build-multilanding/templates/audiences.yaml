@@ -1,0 +1,20 @@
+# audiences.yaml — WHO the person is. One entry per audience.
+# Audience answers "who", not "what they are searching for right now" (that is intent).
+# Several audiences may share one intent and one page; one audience may need
+# several pages for different intents/stages. Keep audiences pain-based, not
+# demographic theatre.
+#
+# evidence:  confirmed | derived | hypothesis   (never ship "hypothesis" as fact)
+
+- audience_id: aud-example
+  label: Short human label
+  description: One concrete line about this person and their situation.
+  pains:
+    - The problem in their own words.
+  jobs_to_be_done:
+    - What they are actually trying to get done.
+  triggers:
+    - The event that makes them look for a solution now.
+  language: fr
+  evidence: hypothesis
+  source: where this came from (interview, GSC query, sales call, research file)

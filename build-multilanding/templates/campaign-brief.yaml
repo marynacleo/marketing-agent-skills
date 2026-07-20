@@ -1,0 +1,32 @@
+# campaign-brief.yaml — what is being LAUNCHED right now. One file per launch.
+# Put in  <project>/marketing/campaigns/<channel>-<intent>-<date>.yaml
+# This is the bridge between the site, the ad account and analytics.
+
+campaign_id: gads-example-2026        # canonical, must match the ad account
+channel: google-search                # google-search | meta | linkedin | ...
+objective: leads                      # leads | sales | calls | bookings
+budget:
+  amount: 0
+  currency: EUR
+  period: day
+dates:
+  start: 2026-01-01
+  end: ""                             # empty = open-ended
+target_intents:                       # from keyword-intents.csv
+  - intent-example
+offer_id: offer-example
+message_id: msg-example
+ad_groups:
+  - ad_group_id: ag-example
+    creative_id: cr-example
+    landing_variant_id: var-example   # the page this ad points to
+    utm:
+      source: google
+      medium: cpc
+      campaign: example-2026
+      content: cr-example
+tracking:
+  auto_tagging: true                  # keep gclid; do not strip on redirect
+  consent_mode: v2
+  enhanced_conversions: pending       # only after legal basis is confirmed
+notes: One line on the hypothesis this launch tests.

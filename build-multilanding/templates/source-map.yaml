@@ -1,0 +1,45 @@
+# source-map.yaml — the single entry point that connects this project to build-multilanding.
+#
+# Copy to  <project>/marketing/source-map.yaml  and fill in the paths.
+# In the project CLAUDE.md add one line so the skill can find it:
+#     marketing_context: marketing/source-map.yaml
+#
+# The GLOBAL skill (the engine) stays generic. THIS file is the project fuel:
+# it tells the skill where the project's real audiences, offers, keywords and
+# proof live. If a path here is missing or a fact is absent, the skill must
+# report a context gap (UNKNOWN) instead of inventing data.
+
+# --- Strategic core: read FIRST (source of truth for who/pains/proof/voice) ---
+# Ecosystem convention (coreyhaines31/marketingskills, MIT): the canonical
+# project context. If present, personas, pains, proof and conversion action
+# come from here. On conflict with the operational files below, this file wins
+# for CONTENT. Fallback path: .claude/product-marketing-context.md
+product_marketing: .agents/product-marketing.md
+
+# --- Operational layer for paid-ads multilanding (relative to project root) ---
+messages:         marketing/message-map.yaml     # intent -> promise/CTA/objection
+keyword_intents:  marketing/keyword-intents.csv  # search -> intent -> stage
+offers:           marketing/offers.yaml          # offers with stable ids + value
+restrictions:     marketing/claims-and-restrictions.md
+tracking:         marketing/tracking-plan.yaml
+campaigns:        marketing/campaigns/            # one brief per launch
+experiments:      marketing/experiments/landing-experiments.csv
+variants_out:     marketing/generated/variants.csv  # generated, not hand-written
+
+# --- Optional structured mirrors (only if you want typed IDs separate from
+#     the prose in product-marketing.md; otherwise declare IDs there) ---
+audiences:        marketing/audiences.yaml        # optional
+proof:            marketing/proof-library.yaml     # optional
+brand_voice:      marketing/brand-voice.md         # optional (else voice lives in product-marketing.md)
+
+# --- Locale policy ---
+# For a bilingual site, list EVERY required locale. A variant is not "done"
+# until each required locale exists and the pair is linked (hreflang + switcher).
+locales:          [fr, en]
+default_locale:   fr
+
+# --- House style (project-level overrides; global defaults still apply) ---
+house_style:
+  public_copy_no_em_dash: true      # no —  /  – in client-facing text
+  no_ai_traces_in_code: true        # no tool names / build notes in shipped code
+  headings_without_final_period: true

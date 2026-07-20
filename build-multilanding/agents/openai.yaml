@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Multilanding"
+  short_description: "Build data-driven landing page systems"
+  default_prompt: "Use $build-multilanding to design a validated multi-segment landing page system."
