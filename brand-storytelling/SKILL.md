@@ -20,6 +20,18 @@ architecture, not inspiration.
 Never start with the text. Start with the goal and the person the text must
 change.
 
+## The method at a glance
+
+```mermaid
+flowchart LR
+  A[Goal] --> B[Person<br/>+ pain] --> C[Emotion] --> D[Message] --> E[Story] --> F[Channel] --> G[Check]
+  classDef key fill:#fef9c3,stroke:#ca8a04,color:#713f12;
+  class D key
+```
+
+Message-first: the message is fixed before the words, so the story serves a
+point instead of decorating one.
+
 ## The message-first architecture
 
 Walk this order every time. Skipping a step is `mettre la charrue avant les bœufs`.

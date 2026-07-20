@@ -9,6 +9,18 @@ Made for paid traffic that has to pay off. A generic page restarts the
 conversation the ad began; this skill continues it, so each qualified lead
 costs less and more clicks turn into orders.
 
+## The method at a glance
+
+```mermaid
+flowchart LR
+  A[Search intent<br/>+ awareness] --> B[Offer + message<br/>landing contract] --> C[One branded<br/>template] --> D[Many variant<br/>pages] --> E[Qualified lead] --> F[Revenue]
+  classDef key fill:#dcfce7,stroke:#16a34a,color:#14532d;
+  class F key
+```
+
+One codebase, many pages, each keeping one promise to one intent, tracked all
+the way to revenue.
+
 ## What it does
 
 - Segments by **search intent + awareness stage + offer + message**, not by
