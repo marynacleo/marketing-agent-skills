@@ -29,17 +29,24 @@ to spend money on traffic nobody is measuring.
 
 ```mermaid
 flowchart LR
-  A[Ad click] --> B[Search intent]
+  A([Ad click]) --> B[Search intent]
   B --> C[Landing variant<br/>message match]
   C --> D[Consent + tracking<br/>Consent Mode v2]
-  D --> E[Lead captured<br/>+ click id preserved]
+  D --> E[Lead captured<br/>click id preserved]
   E --> F[Qualified offline<br/>CRM / booking]
-  F --> G[Outcome + value<br/>fed back to Google]
-  G --> H[Bidding optimizes to<br/>real revenue, not form fills]
+  F --> G[Deposit / sale<br/>real revenue]
+  G -. offline conversion<br/>fed back .-> H{{Smart bidding}}
+  H -. optimizes toward<br/>real revenue .-> A
+  classDef money fill:#dcfce7,stroke:#16a34a,color:#14532d;
+  classDef bid fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
+  class G money
+  class H bid
 ```
 
-Every arrow is a place a launch usually breaks. The framework makes each one a
-contract with an acceptance test.
+It is a loop, not a line: the real downstream revenue is fed back so bidding
+optimizes toward paying customers, not the cheapest form fill. Every arrow is a
+place a launch usually breaks, and the framework makes each one a contract with
+an acceptance test.
 
 ## Architecture: one engine, project-specific fuel
 
