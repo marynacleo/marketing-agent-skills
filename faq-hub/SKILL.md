@@ -10,21 +10,6 @@ Gemini), and conversion (they remove buying friction). The pain is upkeep - keep
 page in sync. This system fixes that: each page declares its own FAQs inline, and the central hub
 **auto-collects** them. Add an FAQ on any page -> it appears on the hub automatically.
 
-## The method at a glance
-
-```mermaid
-flowchart LR
-  A[Page A FAQs] --> H[(Central hub<br/>auto-collects)]
-  B[Page B FAQs] --> H
-  C[Page C FAQs] --> H
-  H --> S[FAQPage schema<br/>SEO / AEO / GEO]
-  classDef key fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
-  class H key
-```
-
-Each page declares its own FAQs inline; the hub collects them automatically, with
-FAQPage schema for search and AI answers.
-
 ## WordPress (mu-plugin) - the auto path
 Drop `scripts/faq-hub.php` into `wp-content/mu-plugins/` (deploy via the project's safe method,
 for example `$wpdb` / WP-CLI, never the kses editor). Then:

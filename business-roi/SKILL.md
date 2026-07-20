@@ -7,19 +7,6 @@ description: Evaluate a business idea, new service, offer, product, lead magnet,
 
 Ideas are evaluated as businesses, not as content. Answer all ten in writing before endorsing, planning, or building anything.
 
-## The method at a glance
-
-```mermaid
-flowchart LR
-  A[Idea] --> B[Who pays<br/>+ what value] --> C[Why now<br/>+ full cost] --> D[Scalable?<br/>burnout risk?] --> E{Cheapest<br/>real-market test}
-  E -->|passes| F[Build]
-  E -->|fails| G[Kill / rework]
-  classDef gate fill:#fee2e2,stroke:#dc2626,color:#7f1d1d;
-  class E gate
-```
-
-An idea is judged as a business and cheaply tested before anyone builds it.
-
 ## The ten questions
 
 1. **Who pays, specifically?** A persona with a pain and a budget ("salon owners losing bookings to phone tag"), not a demographic ("small businesses").

@@ -7,18 +7,6 @@ description: Organic SEO for any website or page - on-page (title/meta/H1/headin
 
 Universal, project-agnostic method. Site-specific data (keywords, URLs, personas, business name, phone, service zone) lives in the PROJECT's own context (project CLAUDE.md / docs / memory), never in this skill.
 
-## The method at a glance
-
-```mermaid
-flowchart LR
-  A[On-page<br/>title/meta/H1] --> B[Internal links<br/>+ schema GEO/AEO] --> C[Reviews + NAP<br/>trust] --> D[Search Console<br/>opportunities]
-  D -. monthly loop .-> A
-  classDef key fill:#dcfce7,stroke:#16a34a,color:#14532d;
-  class D key
-```
-
-Not a one-off: a monthly loop that turns Search Console data back into on-page fixes.
-
 ## Honesty rules (SEO is full of folklore)
 
 - Mark every claim: **Confirmed** (Google-documented / observed on the live site), **Derived** (reasonable inference), **Assumed**, **Unknown**. Do not parrot magic numbers ("keyword density 2.7%", "max 5-7 links") as law.

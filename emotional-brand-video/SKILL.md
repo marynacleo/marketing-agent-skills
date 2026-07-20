@@ -15,17 +15,6 @@ Companion files in this folder:
 - [prompts.md](prompts.md) - portable AI-video prompt library (base formula, negatives, per-scene templates, per-tool cheat sheet, free-first)
 - [storyboards.md](storyboards.md) - blank storyboard template + worked examples
 
-## The arc at a glance
-
-```mermaid
-flowchart LR
-  A[1 Visual hook<br/>2s, stop the thumb] --> B[2 Situation<br/>real person, tension] --> C[3 Transformation<br/>product enters] --> D[4 Emotional close<br/>+ one soft CTA]
-  classDef key fill:#ede9fe,stroke:#7c3aed,color:#4c1d95;
-  class D key
-```
-
-Feel first: the viewer feels the story before the product ever appears.
-
 ## 1. Philosophy
 
 In a world saturated with images, Feel-First creates strong emotional impact by
