@@ -1,0 +1,43 @@
+# DEMO ONLY - fictional project, illustrative values. Not a real client config.
+# Shows the SHAPE of the conversion taxonomy that drives bidding. The production
+# implementation (real values, integrations, QA, ownership) stays internal to
+# MariCleo Studio.
+
+project: "demo-alpine-yoga-retreats"   # fictional
+currency: "EUR"
+updated: "2026-07-20"
+
+conversions:
+  - name: purchase                 # the money (retreat booking)
+    role: primary
+    counts_toward_bidding: true
+    value: dynamic
+    value_source: "order total"
+    dedup_key: "order_id"
+    owner: "e-commerce / payment system"
+    fires_when: "payment confirmed paid, once"
+
+  - name: qualified_lead
+    role: secondary                # promote to primary only if purchases are sparse
+    counts_toward_bidding: false
+    value: "fixed: proxy or none"
+    dedup_key: "lead_id + click_id"
+    owner: "CRM / booking status"
+    fires_when: "lead marked qualified offline"
+
+  - name: enquiry_submit
+    role: secondary
+    counts_toward_bidding: false
+    value: none
+    owner: "form endpoint"
+    fires_when: "server returns success, once (not on browser submit)"
+
+# Illustrative guardrails (the full set is part of the internal method):
+rules:
+  - "Exactly one outcome carries the real money value."
+  - "A soft conversion is never the sole bidding target when the goal is bookings."
+  - "value currency == account currency == offline-feed currency."
+  - "No personal data in any value or parameter."
+
+# NOTE: the production version adds attribution windows, consent fields, refund
+# handling, import method, ownership, and a full QA gate. Those stay confidential.

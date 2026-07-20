@@ -20,6 +20,7 @@ Agent Skills specification.
 | [brand-storytelling](brand-storytelling/) | The strategic process BEFORE any brand text: message-first architecture, pain-based personas (not demographic theatre), AI as interviewer and critic rather than writer. |
 | [business-roi](business-roi/) | Evaluate an idea BEFORE building it: who pays, for what value, why now, full cost in hours, scalability, burnout risk, and the cheapest real-market test. |
 | [emotional-brand-video](emotional-brand-video/) | Feel-First Framework: short documentary-style brand video that makes the viewer feel the story before seeing the product. 4-scene arc, storyboard templates, portable AI-video prompt library (Sora, Kling, Veo, and others). |
+| [google-ads-launch-framework](google-ads-launch-framework/) | 🎯 Case study, not a full skill: a reusable paid-ads launch system that ties landing pages, consent, tracking, CRM and the ad account into one chain with contracts, verified platform rules and a go/no-go gate. Methodology shown; production implementation kept internal. |
 
 ## What makes these different
 
