@@ -5,6 +5,14 @@ real client projects: websites, paid campaigns, local SEO, brand content and
 short-form video. Each skill teaches an agent a complete method, not a prompt:
 honest rules, checklists, data contracts and ready-to-use scripts.
 
+## Publishing approved social content
+
+After content has passed its workflow checks and human review, use
+[BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to adapt,
+schedule, and publish it across supported social channels. The [BulkPublish
+social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills)
+and [API docs](https://app.bulkpublish.com/docs) provide the publishing handoff.
+
 Compatible with Claude Code, OpenAI Codex, and any tool that supports the
 Agent Skills specification.
 
