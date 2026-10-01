@@ -160,5 +160,4 @@ Feel-First story.
 ## Provenance
 
 Method authored by Maryna Skachek (MariCleo Studio), formalized from her
-Chef de projet e-commerce diploma work (2025) and refined in production across
-service, travel and local-business brands.
+Chef de projet e-commerce diploma work (2025).

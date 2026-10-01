@@ -38,7 +38,7 @@ it needs a build step, not a server plugin.)
 Add FAQs where users actually have questions / where it targets search queries: money/booking
 pages (reserve, pricing), practical pages (how to get there, what to pack), each product/service
 page, and journal/blog articles (article-specific FAQs help long-tail SEO and AI answers). Keep
-answers honest and specific; no invented facts. UK English, no em-dashes.
+answers honest and specific; no invented facts, no em-dashes.
 
 ## Reference implementation
 `scripts/faq-hub.php` here is the working mu-plugin, ready to drop in.

@@ -1,6 +1,6 @@
 ---
 name: seo-optimization
-description: Organic SEO for any website or page - on-page (title/meta/H1/headings), internal linking and descriptive anchors, structured data (schema/JSON-LD) for Google AND LLM answers (GEO/AEO), FAQ/long-tail, real Google reviews and social proof, NAP consistency, human-readable sitemap page, and the monthly Search Console opportunity loop. Use when creating, auditing, or improving a site's organic search visibility, planning page architecture, writing SEO copy, or turning Search Console data into content fixes. Do NOT use for paid ads (paid-ads-launch) or pure brand/social copy (brand-linkedin, brand-storytelling).
+description: Organic SEO for any website or page - on-page (title/meta/H1/headings), internal linking and descriptive anchors, structured data (schema/JSON-LD) for Google AND LLM answers (GEO/AEO), FAQ/long-tail, real Google reviews and social proof, NAP consistency, human-readable sitemap page, and the monthly Search Console opportunity loop. Use when creating, auditing, or improving a site's organic search visibility, planning page architecture, writing SEO copy, or turning Search Console data into content fixes. Do NOT use for paid ads (paid-ads-launch) or pure brand/social copy (brand-storytelling).
 ---
 
 # SEO Optimization Protocol
@@ -45,7 +45,7 @@ Lead with the keyword, then explain. In **bullet/numbered lists**, start each it
 ## Internal linking and anchors
 
 - **Anchor text = the visible clickable text.** Google reads it to understand the target page. Use descriptive keyword anchors ("Découvrir le SEO local"), NEVER "click here / learn more / en savoir plus" on buttons and links - that throws away a free signal.
-- **Click depth ≤ 3**: any important page reachable within 3 clicks of the home page.
+- Every important page is reachable within 3 clicks of the home page.
 - Internal links pointing TO a page STRENGTHEN it. Do not artificially cap inbound internal links to a key/money page - more is generally better (Confirmed principle). Folk rules like "max 5-7 links to the mother page" are Unknown/unverified; the defensible readings are "keep the nav menu to ~5-7 items" or "don't dump dozens of links on one page." Don't cut useful internal links to hit a number.
 
 ## Structured data (schema / JSON-LD) - for Google AND LLMs
@@ -55,9 +55,9 @@ Same practices power classic results, AI Overviews and LLM answers (GEO/AEO): pa
 ## Images: real and original over stock/AI-generated
 
 - Prefer **real, original, relevant photos** (of the actual person, team, work, place) over stock and AI-generated images. Rationale is **EEAT + trust + conversion**, and originality is a people-first signal Google rewards (Confirmed direction). For a personal brand or local business, a real photo of the founder/work strongly supports "Experience" and Trust.
-- ⚠️ Honesty marker: the stronger claim that "AI-generated images actively kill/penalize rankings" is **Unknown/unverified** - Google's stated position is it judges by quality/helpfulness/originality, not by production method. So treat "use real photos" as a well-founded recommendation, not a documented ranking penalty. Do not overstate it in client-facing advice.
+- Honesty marker: the stronger claim that "AI-generated images actively kill/penalize rankings" is **Unknown/unverified** - Google's stated position is it judges by quality/helpfulness/originality, not by production method. So treat "use real photos" as a well-founded recommendation, not a documented ranking penalty. Do not overstate it in client-facing advice.
 - Practical: at least the hero, about page, and key service/proof pages should carry real imagery. A site with zero real photos reads as generic to both users and Google.
-- Format/alt/performance rules live in the `web-images` skill. Privacy: by default blur license plates, third-party faces, phone numbers before publishing (global CLAUDE.md privacy rule).
+- Keep image format, alt text and performance rules in your project's image guidelines. Privacy: by default blur license plates, third-party faces and phone numbers before publishing.
 
 ## FAQ and long-tail
 
@@ -66,11 +66,11 @@ Long-tail, question-form queries belong in FAQ sections (also feeds FAQPage sche
 ## Social proof: real reviews, not copy-paste
 
 - Pull REAL Google reviews via a widget/embed (e.g. Trustindex "Widgets for Google Reviews"), not hand-copied quotes. Prerequisite: claim the Google Business Profile.
-- **Platform check before choosing a tool**: a WordPress plugin only works on WordPress. For a static/JS site (Vercel/Next, plain HTML) use the tool's JS embed, not the WP plugin.
-- **Placement**: put social proof near the offer / before the main CTA, not only a carousel in the footer where few visitors reach.
-- **Keywords in reviews matter**: when asking clients for a review, gently prompt them to mention the service and city ("your service", "your city", "local SEO"). A review without keywords is a missed signal.
-- **Never incentivise reviews** (discount/gift in exchange for a review) — prohibited by Google and Trustindex. Only ask + make it easy (direct "write a review" link, e.g. `g.page/r/<id>/review`).
-- **Trustindex mechanics (verified in production, 2026)**: the embed is a stable `<script defer async src="https://cdn.trustindex.io/loader.js?WIDGET_ID">` — the **widget-id/code does NOT change** when reviews update, so it's a one-time paste on the site. On the **free plan there is NO automatic update**: to pull NEW reviews you must manually re-sync in "Get reviews" (or disconnect → reconnect the Google source in the dashboard); then the same embedded widget shows the new count. A "professional" widget/feature (verified badge, auto-update, unlimited impressions, rich-snippet) is **free only 7 days, then reverts to the free package (it does NOT break)**. Free plan has an impression cap — place the full slider on key pages (home + near CTA) + a light badge in the footer, not on all 50 pages. The widget renders only on the registered live domain, **not on localhost** (can't preview locally; verify on the deployed site). Rich-snippet/schema in Trustindex is paid — and self-serving AggregateRating for a business's own reviews on its own site is ignored by Google anyway, so skip it.
+- Check the platform before choosing a tool. A WordPress plugin only works on WordPress. For a static/JS site (Vercel/Next, plain HTML) use the tool's JS embed, not the WP plugin.
+- Put social proof near the offer / before the main CTA, not only a carousel in the footer where few visitors reach.
+- Keywords in reviews matter. When asking clients for a review, gently prompt them to mention the service and city ("your service", "your city", "local SEO"). A review without keywords is a missed signal.
+- **Never incentivise reviews** (discount/gift in exchange for a review): prohibited by Google and Trustindex. Only ask + make it easy (direct "write a review" link, e.g. `g.page/r/<id>/review`).
+- **Trustindex mechanics (verified in production, 2026)**: the embed is a stable `<script defer async src="https://cdn.trustindex.io/loader.js?WIDGET_ID">`; the **widget-id/code does NOT change** when reviews update, so it's a one-time paste on the site. On the **free plan there is NO automatic update**: to pull NEW reviews you must manually re-sync in "Get reviews" (or disconnect → reconnect the Google source in the dashboard); then the same embedded widget shows the new count. A "professional" widget/feature (verified badge, auto-update, unlimited impressions, rich-snippet) is **free only 7 days, then reverts to the free package (it does NOT break)**. Free plan has an impression cap: place the full slider on key pages (home + near CTA) + a light badge in the footer, not on all 50 pages. The widget renders only on the registered live domain, **not on localhost** (can't preview locally; verify on the deployed site). Rich-snippet/schema in Trustindex is paid, and self-serving AggregateRating for a business's own reviews on its own site is ignored by Google anyway, so skip it.
 
 ## NAP consistency (Name, Address/zone, Phone, Social)
 
@@ -84,7 +84,7 @@ Besides the XML sitemap (submitted in Search Console), publish a visible "plan d
 
 If a lead magnet is email-gated (the download is the reward for leaving an email), the **reward file itself** (PDF/zip/download) must stay BEHIND the capture. Do NOT expose it via: the human-readable sitemap page, the XML sitemap, a descriptive internal link/button that hands it out, or a directly-downloadable indexable URL. Only the **landing/capture page** is public and linkable; the reward is delivered AFTER the email is submitted (email delivery, or a token/redirect the public page does not reveal).
 - When building the human-readable sitemap or internal-linking clusters, list the capture page, never the reward file. Auto-listing "all pages/files" will leak `/assets/lead-magnets/*.pdf` - exclude it explicitly.
-- ⚠️ Verify live, don't trust notes: if the PDF currently downloads directly with no email step, the gate is NOT implemented yet - flag it as a gap, do not treat the reward page as a normal article to link.
+- Verify live, don't trust notes: if the PDF currently downloads directly with no email step, the gate is NOT implemented yet - flag it as a gap, do not treat the reward page as a normal article to link.
 
 ## Search Console opportunity loop (monthly, after data accrues)
 
@@ -98,11 +98,11 @@ Then: real queries -> improve Title, H1/H2, FAQ, content -> re-check next month.
 
 ## Bilingual sites (hard rule)
 
-If the site is bilingual (FR + EN etc.), every new page/article must exist in BOTH languages at once, mirror URLs, hreflang (fr/en/x-default) on both, a language switcher to the exact counterpart, and both in the sitemap. A one-language page is not "done." (Global CLAUDE.md rule.)
+If the site is bilingual (FR + EN etc.), every new page/article must exist in BOTH languages at once, mirror URLs, hreflang (fr/en/x-default) on both, a language switcher to the exact counterpart, and both in the sitemap. A one-language page is not "done."
 
 ## Style guardrails for SEO copy
 
-No em-dashes in public copy. Titles / H1-H3 / CTAs / slogans without a final period. Write like a human, no corporate filler. French copy -> french-pro-writing skill.
+No em-dashes in public copy. Titles / H1-H3 / CTAs / slogans without a final period. Write like a human, no corporate filler. French copy: give it a native-level French editing pass.
 
 ## Pre-launch SEO checklist
 

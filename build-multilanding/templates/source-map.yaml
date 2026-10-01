@@ -1,4 +1,4 @@
-# source-map.yaml — the single entry point that connects this project to build-multilanding.
+# source-map.yaml: the single entry point that connects this project to build-multilanding.
 #
 # Copy to  <project>/marketing/source-map.yaml  and fill in the paths.
 # In the project CLAUDE.md add one line so the skill can find it:
@@ -40,6 +40,6 @@ default_locale:   fr
 
 # --- House style (project-level overrides; global defaults still apply) ---
 house_style:
-  public_copy_no_em_dash: true      # no —  /  – in client-facing text
+  public_copy_no_em_dash: true      # no em or en dashes in client-facing text
   no_ai_traces_in_code: true        # no tool names / build notes in shipped code
   headings_without_final_period: true

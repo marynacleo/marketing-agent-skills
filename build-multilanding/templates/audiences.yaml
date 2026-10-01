@@ -1,4 +1,4 @@
-# audiences.yaml — WHO the person is. One entry per audience.
+# audiences.yaml: WHO the person is. One entry per audience.
 # Audience answers "who", not "what they are searching for right now" (that is intent).
 # Several audiences may share one intent and one page; one audience may need
 # several pages for different intents/stages. Keep audiences pain-based, not

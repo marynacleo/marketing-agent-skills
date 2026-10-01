@@ -1,4 +1,4 @@
-# 🎯 Reusable Google Ads Launch Framework
+# Reusable Google Ads Launch Framework
 
 A case study. The methodological frame is shown here; client configurations,
 operational mechanisms, and production data stay confidential. This is the one
@@ -7,8 +7,8 @@ skill, on purpose.
 
 **By [Maryna Skachek](https://maricleo-studio.vercel.app/) · MariCleo Studio**
 
-> Le cadre methodologique est presente ici. Les configurations clients, les
-> mecanismes operationnels et les donnees de production restent confidentiels.
+> Le cadre méthodologique est présenté ici. Les configurations clients, les
+> mécanismes opérationnels et les données de production restent confidentiels.
 
 ## Context
 

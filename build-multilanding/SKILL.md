@@ -91,11 +91,11 @@ project's own installed skills:
 
 - audience pains and voice of customer -> the project's research/storytelling skill
 - offer shaping -> the project's offers work
-- campaign and measurement setup -> `paid-ads-launch`
+- campaign and measurement setup -> your project's paid-ads launch checklist
 - indexable-page SEO and schema -> `seo-optimization`
-- image assets -> `web-images`
+- image assets -> your project's image guidelines
 - FAQ blocks and objections -> `faq-hub`
-- post-conversion nurture -> `brevo-automation`, as an OPTIONAL downstream
+- post-conversion nurture -> your email automation, as an OPTIONAL downstream
   adapter only; never a hard dependency, and never auto-connected.
 
 ## Safety and authority boundaries

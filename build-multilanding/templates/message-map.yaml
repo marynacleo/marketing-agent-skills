@@ -1,4 +1,4 @@
-# message-map.yaml — the PROMISE shown to a given intent. One entry per message.
+# message-map.yaml: the PROMISE shown to a given intent. One entry per message.
 # This is the bridge between a search intent and the landing page. The message
 # is what the ad and the landing headline must both honor (semantic match,
 # not word-for-word copy).

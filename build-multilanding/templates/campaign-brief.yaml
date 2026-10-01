@@ -1,4 +1,4 @@
-# campaign-brief.yaml — what is being LAUNCHED right now. One file per launch.
+# campaign-brief.yaml: what is being LAUNCHED right now. One file per launch.
 # Put in  <project>/marketing/campaigns/<channel>-<intent>-<date>.yaml
 # This is the bridge between the site, the ad account and analytics.
 

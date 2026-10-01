@@ -28,4 +28,4 @@ prior consent. Consent is a gate that sits before tags fire, not an afterthought
 Do not connect ad accounts, analytics, CRM, or payment providers, and do not
 publish or activate a campaign, without explicit permission for that specific
 service and action. Treat launch, bulk messaging and payments as separate human
-sign-off gates. This composes with the project's paid-ads-launch skill.
+sign-off gates. This composes with the project's paid-ads launch checklist.

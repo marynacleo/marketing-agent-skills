@@ -11,9 +11,9 @@ description: >-
   fil rouge, "help me write my story", LinkedIn strategy, offer messaging.
 ---
 
-# Brand Storytelling — the process before the text
+# Brand Storytelling: the process before the text
 
-Core rule (the whole point): **do not ask AI to create — ask it to help think.**
+Core rule (the whole point): **do not ask AI to create, ask it to help think.**
 AI as an *interviewer* and a *critic* beats AI as a *writer*. Good content is
 architecture, not inspiration.
 
@@ -60,13 +60,13 @@ For a professional/LinkedIn audience, a maturer variant reads better than AIDA:
 
 `Observation → Problem → Non-obvious insight → Example → Practical lesson → Question`
 
-Use AIDA only for beginner/simple funnels — it tends to produce plastic copy.
+Use AIDA only for beginner/simple funnels: it tends to produce plastic copy.
 
-## AI as partner — the three prompt modes
+## AI as partner: the three prompt modes
 
 Reach for these instead of "write me a post".
 
-### Mode 1 — Interviewer (dig out the real story)
+### Mode 1. Interviewer (dig out the real story)
 Do **not** generate yet. Ask one question at a time until the true story surfaces.
 
 Template (FR, adapt language to project):
@@ -85,7 +85,7 @@ Après mes réponses, propose : un narratif central, 3 angles de storytelling,
 5 idées de posts, et les objections possibles de l'audience.
 ```
 
-### Mode 2 — Critic ("kill my draft") — the strongest use
+### Mode 2. Critic ("kill my draft"), the strongest use
 Run every important piece through this BEFORE publishing.
 ```
 Agis en critique adverse. Voici mon texte : [...].
@@ -95,18 +95,18 @@ Quelles objections le lecteur va-t-il avoir ? Que va-t-il ne PAS croire ?
 Où est-ce que je perds son attention ? Sois concret, pas gentil.
 ```
 
-### Mode 3 — Repurposer (one story → many channels)
+### Mode 3. Repurposer (one story → many channels)
 One story lives as: LinkedIn post, article, site page, email, short video,
 sales one-pager. Re-cut per channel, never copy-paste. The LinkedIn audience is
-not the site's Google audience — change the hook, angle, format.
+not the site's Google audience: change the hook, angle, format.
 
 ## What NOT to blindly copy from generic "AI for business" courses
 
-- Don't build demographic personas ("Camille, 36 ans") — build pain-based ones.
-- Don't default to AIDA for a pro audience — it sounds plastic.
-- Don't ask AI to "write the brand story" — ask it to interview you until it
+- Don't build demographic personas ("Camille, 36 ans"). Build pain-based ones.
+- Don't default to AIDA for a pro audience: it sounds plastic.
+- Don't ask AI to "write the brand story"; ask it to interview you until it
   finds the real one.
-- Don't treat an AI-generated persona as truth — it's a hypothesis. Validate it
+- Don't treat an AI-generated persona as truth: it's a hypothesis. Validate it
   against real LinkedIn comments, client messages, reviews, job posts, analytics.
 
 ## Style rules
@@ -134,7 +134,7 @@ Deliverables of a visual identity: colours (with hex codes) + typography
 (titre / sous-titre) + palette + logo + graphic elements + chart/graphic style.
 Colour advice: prefer **monochromatic or analogous** schemes over many hues.
 
-## Responsible AI — verify, don't invent (all projects)
+## Responsible AI: verify, don't invent
 
 Two failure modes to guard against, always:
 
@@ -144,7 +144,7 @@ Two failure modes to guard against, always:
   luxury, tired of loud marketing." Less generalisation = better output.
 - **Hallucinations.** AI invents. Counter with: verify every claim, write detailed
   prompts, give reliable sources (the site, the research, the market analysis),
-  and check the result before shipping. **If you can't see a file, don't invent —
+  and check the result before shipping. **If you can't see a file, don't invent:
   say so** (a standing honesty rule; matches Google's guidance).
 
 Five réflexes before using AI on a task: (1) is AI right for THIS task? (idea /
@@ -153,18 +153,11 @@ only after a human checks); (2) do I have permission (employer policy)? (3) is t
 data safe (never send client PII, internal docs, trade secrets, passwords)? (4) did
 I verify the output? (5) am I transparent where AI materially contributed?
 
-Meta-lesson of both Google webinars: **AI accelerates thinking; it does not replace
-strategy.** Process beats magic prompts.
-
 ## Cross-model validation (positioning moat)
 
 For important brand decisions (positioning, tone of voice, naming, slogan, visual
-concept), run the SAME prompt through several models and take the best of each —
+concept), run the SAME prompt through several models and take the best of each;
 don't rely on one. Free tool for the FR context: **Compar:IA Arena**
 (`comparia.beta.gouv.fr`), a French-government blind LLM comparison (Beta.gouv /
 Ministère de la Culture). Blind = removes brand bias; tuned to French language and
-culture. ⚠️ Never paste client PII/secrets there (see responsible-AI data rule).
-
-For positioning as an AI-marketing expert, this is a differentiator: not
-"j'utilise ChatGPT" but "j'applique une approche multi-modèles et je compare les
-résultats de plusieurs LLM avant de décider." Credible and higher-quality.
+culture. Never paste client PII/secrets there (see responsible-AI data rule).

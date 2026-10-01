@@ -1,4 +1,4 @@
-# Prompt — NAP consistency audit
+# Prompt: NAP consistency audit
 
 NAP = Name, Address/Zone, Phone, plus social links. Reusable across projects. Fill [BRACKETS].
 

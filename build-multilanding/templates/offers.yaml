@@ -1,4 +1,4 @@
-# offers.yaml — WHAT is being sold/proposed. One entry per offer.
+# offers.yaml: WHAT is being sold/proposed. One entry per offer.
 # The offer is the promise + terms, independent of which page renders it.
 
 - offer_id: offer-example

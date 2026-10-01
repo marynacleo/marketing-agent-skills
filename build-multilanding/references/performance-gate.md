@@ -18,7 +18,7 @@ single lab Lighthouse run on a fast desktop. A lab run is a smoke test, not proo
 - Redirects do not drop attribution parameters.
 - Forms and conversion events work on mobile, including slow and error states.
 - No 404/403 for AdsBot; unknown or disabled variants return a real 404.
-- Images optimized (see the project web-images skill), sized to avoid layout
+- Images optimized (see the project's image guidelines), sized to avoid layout
   shift; fonts loaded without blocking or causing CLS.
 
 ## Common regressions to watch
